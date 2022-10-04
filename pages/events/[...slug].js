@@ -23,7 +23,6 @@ const FilteredEventsPage = () => {
           ...data[key],
         });
       }
-      console.log(events)
       setLoadedEvents(events);
     }
   }, [data])
